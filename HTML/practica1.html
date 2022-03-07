@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Raychuuu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: rgb(109, 41, 41);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        footer {
+            background-color: rgb(209, 99, 99);
+            padding: 10px;
+            text-align: center;
+            color: rgb(255, 253, 253);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./logo.png" alt="raichu" width="385px" height="385px">
+        <h1>Personalice su Pastel.</h1>
+    </header>
+    
+    <p>Bienvenido a la pastelería de Raychuuu, por favor ayudenos a saber exactamente como quiere su pastel, a continuación vendrán las opciones disponibles.</p>
+    <br><hr>
+    <h2>Paso 1. Sabores</h2>
+    <p>Selecione el sabor o sabores que desea tener en su pastel.</p>
+    <input type="checkbox" id="chocolate" name="sabores" value="Chocolate">
+    <label for="chocolate">Chocolate</label><br>
+    <input type="checkbox" id="tres leches" name="sabores" value="Tres leches">
+    <label for="tres leches">Tres leches</label><br>
+    <input type="checkbox" id="vainilla" name="sabores" value="Vainilla">
+    <label for="vainilla">Vainilla</label><br><br>
+
+    <br><br><hr>
+    <h2>Paso 2. Adornos</h2>
+    <p>Por favor ayudenos a saber exactamente con que adornos quiere su pastel</p>
+    <input type="checkbox" id="velas" name="adornos" value="Velas">
+    <label for="velas">Velas de cumpleaños</label><br>
+    <input type="checkbox" id="bombones" name="adornos" value="Bombones">
+    <label for="bombones">Bombones</label><br>
+    <input type="checkbox" id="detalles" name="adornos" value="detalles">
+    <label for="detalles">Detalles en chocolate</label><br><br>
+
+    <br><br><hr>
+
+    <h2> Formulario</h2>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+    <label for="numero1">Número de teléfono:</label><br>
+    <input type="number" id="numero1" name="numero1" maxlength="10"><br><br>
+
+    <label for="correo1">Correo electrónico:</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="descripcion">Descripción del pedido, dinos si necesitas algo en particular con el pastel.</label><br>
+    <input type="text" id="datos" name="datos"><br><br>
+
+    <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Listo, hemos recibido tu orden, pronto nos estaremos comunicando contigo.');"><br><br>
+    <hr>
+
+
+    <footer>
+        <hr>
+        <p>Pasteles únicos del Estado de México</p>
+        <br>
+        <p>Contactanos en nuestras redes sociales.</p>
+    </footer>
+
+
+
+
+
+    
+</body>
+
+</html>
